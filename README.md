@@ -1,4 +1,5 @@
-# Project Name
+# Momo/Shopee Web Crawler
+This project provides two easy-to-use tools to get the price from Momo and Shopee and compare their difference by % with url as input.
 
 This README.md file will briefly describe how to set up and run this project. The main steps are divided into two parts: creating and activating a virtual environment and installing requirements, and setting input data.
 
