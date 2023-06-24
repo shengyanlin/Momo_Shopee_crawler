@@ -344,20 +344,10 @@ wait_time = 50
 # # 等待login_button加载完成
 WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='nGTAZw lyJbNT bQ2eCN']")))
 
-print("Are you Sylvia Ouyang?(y/n)")
-answer = input()
+print("Please login to your shopee account.")
 
-if answer == "y":
-    myemail = "ouzhao0721@gmail.com"
-    mypassword = "E201316a"
-
-elif answer == "jason":
-    myemail = "akwugly0503@gmail.com"
-    mypassword = "Akwugly0503"
-
-elif answer == "n":
-    myemail = input("Please enter your email:")
-    mypassword = input("Please enter your password:")
+myemail = input("Please enter your email:")
+mypassword = input("Please enter your password:")
 
 email = driver.find_element(By.NAME, "loginKey")
 placeholder = email.get_attribute("placeholder")
@@ -495,12 +485,6 @@ for url in shopee_url:
         count+=1
 
 print("Crawling finished, ", success, "out of", len(shopee_url), "success in Shopee.")
-
-#removr $ in Sprice_list
-# for i in range(len(Sprice_list)):
-#     if Sprice_list[i] == "取得價格失敗":
-#         continue
-#     Sprice_list[i] = Sprice_list[i].replace("$","")
 
 #remove $ and antything after first price in Sprice_list
 for i in range(len(Sprice_list)):
