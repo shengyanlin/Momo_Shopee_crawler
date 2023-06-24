@@ -723,8 +723,3 @@ print("Total time used:", end-begin)
 print("File saved as Result_"+today+"_"+now+'.csv')
 print("Done, window will close in 5 seconds.")
 time.sleep(5)
-
-## How to package
-#```
-#pyinstaller -F final_v1.py -c --icon=icon.ico --add-data "./chromedriver.exe;."
-#```
