@@ -34,16 +34,20 @@ Before proceeding with the following steps, make sure that Python and pip are in
     ```
 
 ## 2. Setting up input data
+1. Create an empty csv file named "Momo_Crawler.csv".
 
-1. Add columns named "Shopee_Link" and "Momo_Link".
+2. Add columns named "Shopee_Link" and "Momo_Link" in your Momo_Crawler.csv.
 
-2. Insert the corresponding URLs into the added columns.
+3. Insert the corresponding URLs into the added columns.
+
+4. Save the csv and put the csv and .py above in the same file.
 
 **Note:** Make sure the provided URLs are valid and can direct to the correct product pages.
 
 ## Contact
 
-If there are any questions, please feel free to contact us.
+If there are any questions, please feel free to contact me via
+Email:shengyanlin0503@gmail.com
 
 ---
 The above are the setup and execution instructions for this project, and we hope it can help you.
