@@ -46,16 +46,16 @@ Before proceeding with the following steps, make sure that Python and pip are in
 
 ## 3.Run
 ### (1)momo_crawler
-1.Directly run code and you will get a csv as result.
+1. Directly run code and you will get a csv as result.
 
 ### (2)fival_v1_1
-1.Run file.
+1. Run file.
 
-2.Enter your email and password of shopee account as program tell you to do.
+2. Enter your email and password of shopee account as program tell you to do.
 
-3.As a chrome window pop up, you will see that shopee send you a text message by phone, asking you to verify your logging activate, and just do it.
+3. As a chrome window pop up, you will see that shopee send you a text message by phone, asking you to verify your logging activate, and just do it.
 
-4.The crawlering process is begin and just wait for the result.
+4. The crawlering process is begin and just wait for the result.
 
 ## Contact
 
